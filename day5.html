@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='day5.css'>
+    <script src='day5.js'></script>
+</head>
+<body>
+   <!-- <span>
+
+        i am span 
+    </span>
+
+    <div id ="first" class="muneeba"  data-age="21" data-uni="fjwu">
+        I am doing javascript
+    </div>
+
+    </div>
+<div id="first"> i am a first element</div>
+    <div>
+-->
+
+
+    <button id="btn">Click Me</button>
+  
+<script>
+let m=prompt("enter function to run:")
+if(m=="1")
+{
+    document.getElementById("btn").addEventListener("click", myFunction);
+}
+
+if(m=="2")
+{
+    document.getElementById("btn").addEventListener("click", myFunction2);
+}
+function myFunction() {
+  alert ("Hello World!");
+}
+
+function myFunction2() {
+  alert ("Good Bye!");
+}
+
+</script>
+
+    <!--<button onclick="alert('hello')"> click here</button>
+    -->
+</body>
+</html>
