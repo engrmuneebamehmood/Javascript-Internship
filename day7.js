@@ -1,5 +1,5 @@
 // promise
-/*
+
 let promise = new Promise(function(resolve, reject) {
     alert("Hello , I am your promise")
     resolve(123)
@@ -13,10 +13,9 @@ setTimeout(function() {
 console.log(" Third")
 console.log(promise)
 
-*/
 
 // then , catch
-/*
+
 
 let p1 = new Promise((resolve, reject) => {
         console.log("Promise is pending")
@@ -54,7 +53,7 @@ p2.then((value)=>{
 
 //////////////////////////////
  // Multiple Handlers
-/*
+
 let p1 = new Promise((resolve, reject) => {
      alert("Hey I am P1 and i am not resolved ")
 
@@ -81,7 +80,7 @@ p1.then(() => {
 
 //////////// Callbacks
 
-/*
+
 
 function performOperation(a, b, callback) {
     console.log("Performing the operation...");
@@ -107,9 +106,11 @@ performOperation(5, 3, multiply);
 */
 
 
-/*
+////////////////////////////
+
 //promise API
-// creating promise 1
+
+//creating promise 1
 let p1 = new Promise((resolve, reject) => {
     setTimeout(() => {
             resolve("I am first promise");
@@ -124,13 +125,9 @@ let p2 = new Promise((resolve, reject) => {
             reject(new Error(" Hey! i am an error"));
     }, 3000);
 });
-*/
-
-
-
 
 //creating promise3
-/*
+
 let p3 = new Promise((resolve, reject) => {
     setTimeout(() => {
             resolve("I am third promise");
@@ -161,9 +158,10 @@ let promise_all = Promise.reject(new Error("I am the final error"))
 promise_all.then((value) => {
     console.log(value)
 })
-*/
-/*
 
+
+
+// try catch example
 
 setTimeout(()=>{
     console.log("Hacking wifi.... Please wait..." ) 
@@ -191,9 +189,11 @@ setTimeout(()=>{
     console.log("Username and password is fetched.... Please wait..." )
     }, 4000) 
 
-    */
+////////////////////////////////
 
-/*
+//async await
+
+
 
     async function muneeba() {
         let RawalpindWeather = new Promise((resolve, reject) => {
@@ -238,7 +238,7 @@ const main1 = async () => {
 }
 main1()
 
-*/
+
 
 
 //simple try catch
