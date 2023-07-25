@@ -1,4 +1,5 @@
-/*alert("hello champ")
+
+alert("hello champ")
 
 let m=prompt("enter your name")
 
@@ -14,7 +15,7 @@ else
 {    document.write("Please allow me to write")
 }
 
-
+///////////////////////
 
 let runAgain = true;
 
@@ -39,7 +40,7 @@ while (runAgain) {
   runAgain = confirm("Do you want to play again?")
 }
 
-
+///////////////////////////////////////
 
 let age=prompt("enter age")
 if (age>15)
