@@ -1,3 +1,4 @@
+
 console.log("muneeba mehmood")
 var a=45
 console.log(a)
@@ -7,6 +8,9 @@ console.log(a)
 let b="internship"
 console.log(b)
 
+
+// data types
+
 let c=null;
 let d=123
 let e=true;
@@ -15,9 +19,10 @@ let g= undefined
 let m= Symbol("I am doing my internshi[ at rippel berry")
 
 console.log(a,b,c,d,e,f,g,m)
-console.log(typeof(e))
+console.log(typeof(e)) // checking the type of variable
 
 ///////////////////////////
+// making object, object is a non primitive data type
 
 const item = {
   "muneeba": true,
@@ -33,6 +38,7 @@ const item = {
   
 //////////////////////////
 
+// if else condition
 
 let a=prompt("whats your age?")
 if(a>20)
@@ -49,7 +55,7 @@ else
 }
 
 ///////////////////////
-
+// switch statement
 
 switch (a)
   {
@@ -82,6 +88,8 @@ else
   
 }
 ////////////////////////////
+
+//for loop
 let sum=0
 
 for(let a=0;a<4;a++)
@@ -93,6 +101,8 @@ for(let a=0;a<4;a++)
     console.log(sum)
     
  /////////////////////////
+
+//while loop
 let  c =2
 let i =0
 while(i<10)
@@ -103,7 +113,7 @@ while(i<10)
   }
 
 ///////////////////////////////////////// 
-
+// do while loop
 let m=0
 do
   {
@@ -123,6 +133,7 @@ function add(a,b)
 add(5,6)
 
 //////////////////////
+// function
 
 function average(x,y)
 {
