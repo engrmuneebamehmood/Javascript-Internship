@@ -1,5 +1,5 @@
 
-/* string
+// string
 let name="muneeba"
 console.log(name.length)
 
@@ -100,5 +100,5 @@ console.log(num.splice(1,3,25,26,27))
 
 console.log(num)
 
-*/
+
 
