@@ -1,4 +1,5 @@
-/*
+// making function by arrow methood
+
 const changebody=()=>
 
 
@@ -9,7 +10,7 @@ document.body.firstElementChild.computedStyleMap.background="pink"
 }
 
 
-
+/// dom 
 let b=document.body
 console.log("first child:" , b.firstChild)
 console.log("first element child:" , b.firstElementChild)
