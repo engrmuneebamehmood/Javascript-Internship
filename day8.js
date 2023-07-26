@@ -1,6 +1,6 @@
 
-/*
-fetch api
+
+//fetch api
 
 let p = fetch("https://goweather.herokuapp.com/weather/Ny")
 
@@ -28,7 +28,7 @@ p.then((response) => {
 */
 
 //post request
-/*
+
 
 const createTodo = async (todo) => {
     let options = {
@@ -64,7 +64,7 @@ mainFunc()
 */
 
 //cookie
-/*
+
 console.log(document.cookie)
 document.cookie = "name=muneeba"
 document.cookie = "uni=fjwu"
@@ -119,7 +119,7 @@ window.onstorage = (e) => {
     console.log(e)
 }
 
-*/
+
 
 //note reminder
 
