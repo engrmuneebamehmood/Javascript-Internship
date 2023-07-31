@@ -1,9 +1,9 @@
-//let a=first.getAttribute("class")
-//console.log(a)
+let a=first.getAttribute("class")
+console.log(a)
 
-//let b=first.hasAttribute("class")
-//console.log(b)
-/*
+let b=first.hasAttribute("class")
+console.log(b)
+
 console.log(first.hasAttribute("class"))
 console.log(first.getAttribute("class"))
 console.log(first.setAttribute("skill" , "web"))
