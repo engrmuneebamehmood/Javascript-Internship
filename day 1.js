@@ -8,6 +8,30 @@ console.log(a)
 let b="internship"
 console.log(b)
 
+// scopes:
+ let abc= 20 // abc has a global scope, abc is a global variable
+
+function outer() {
+  let x = 10;// x has a functional scope,  x is a local variable of outer
+  
+// outer is a lexical environment for inner function and variable y
+  
+  function inner() {
+    let y = 5; // y is a local variable of inner
+    
+    console.log("Inner: x + y =", x + y);
+  }
+
+  inner();
+  console.log("Outer: x =", x);
+}
+
+outer();
+
+//outer can not access the variable y
+// inner can access variable x 
+// outer is a lexical environment for inner becz inner was defined in it
+
 
 // data types
 
